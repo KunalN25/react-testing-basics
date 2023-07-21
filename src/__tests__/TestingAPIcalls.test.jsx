@@ -3,6 +3,7 @@ import { render, screen, waitFor } from "@testing-library/react";
 import TestingAPICalls from "../components/TestingAPICalls";
 import * as services from "../utils/Services";
 
+// jest.mock("axios");
 const mockData = [
   {
     name: "Kunal",
