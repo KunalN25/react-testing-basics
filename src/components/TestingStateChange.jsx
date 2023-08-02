@@ -7,11 +7,11 @@ const data = [
     },
     {
         id: 2,
-        name: 'rounak'
+        name: 'paul'
     },
     {
         id: 3,
-        name: 'utkarsh'
+        name: 'lisandro'
     },
 ]
 const TestingStateChange = () => {
@@ -46,7 +46,7 @@ const TestingStateChange = () => {
         <button onClick={() => {
             setElements([...elements, {
                 id: 4,
-                name: 'abhinav'
+                name: 'bruno'
             }])
         }}> Add to list </button>
 
